@@ -141,7 +141,7 @@ const Footer: React.FC = () => {
               Have questions? Need a custom build? Contact us directly via WhatsApp for instant support.
             </p>
             <motion.button
-              onClick={() => window.open('https://wa.me/9779812345678?text=Hi%20Nexgen,%20I%20need%20help%20with%20my%20tech%20requirements', '_blank')}
+              onClick={() => window.open('https://wa.me/9779851175969?text=Hi%20Nexgen,%20I%20need%20help%20with%20my%20tech%20requirements', '_blank')}
               className="w-full flex items-center justify-center space-x-2 py-3 bg-green-600 hover:bg-green-500 text-white rounded-lg font-medium transition-all duration-200 hover:shadow-lg hover:shadow-green-500/25"
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
