@@ -11,7 +11,7 @@ const Products: React.FC = () => {
 
   const handleWhatsAppOrder = (product: Product) => {
     const message = `Hi Nexgen, I'm interested in ${product.name}. Please provide more details.`;
-    const whatsappUrl = `https://wa.me/9779812345678?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/9779851175969?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -173,7 +173,7 @@ const Products: React.FC = () => {
             Can't find what you're looking for? Contact us directly!
           </p>
           <motion.button
-            onClick={() => window.open('https://wa.me/9779812345678?text=Hi%20Nexgen,%20I%20have%20a%20custom%20requirement', '_blank')}
+            onClick={() => window.open('https://wa.me/9779851175969?text=Hi%20Nexgen,%20I%20have%20a%20custom%20requirement', '_blank')}
             className="px-8 py-3 bg-gradient-to-r from-blue-600 to-cyan-500 text-white font-semibold rounded-full hover:shadow-lg hover:shadow-blue-500/25 transition-all duration-200"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
